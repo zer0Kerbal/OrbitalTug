@@ -1,0 +1,128 @@
+//----------------------------Command----------------------------//
+Space Tug Command Module
+- Renamed to "Orbital Tug Command Module"
+- Increased crashTolerance from 15 to 45
+- Added breakingForce/Torque of 200
+- Added Tags
+- Added "allowAnimationWhileShielded = False" to Antenna
+- Updated Data Transmitter to new standard
+- Added Probe Control Point (no multi hop)
+- Added usageReqMask's to Crew Report
+- Increased ElectricCharge rate on Reaction Wheel from 0.175 to 0.24
+- Spotlight & Cabin Lights now corresponds to Light action group
+
+Maneuver Assist "Helper" Drone
+- Changed category to Pods from Utility
+- Updated description to reflect lack of Kerbnet access (intentionally decided not to give it)
+- Tweaked drag values slightly
+- Removed double crashTolerance entries (it's now 50, which it was once)
+- Added vesselType = Probe
+- Added CrewCapacity = 0
+- Added explosionPotential = 0
+- Added tags
+- Added Crossfeed toggle
+- Added hibernation
+- Reduced ElectricCharge rate of Reaction Wheel from 0.01 to 0.005
+- Light now corresponds to Light action group
+- Added Data Transmitter
+- Converted ModuleRCS to ModuleRCSFX
+- Added RCS soundsFX (same as stock, they are very quiet)
+
+Drone Module
+- Renamed to "Orbital Tug Drone Module"
+- Fixed typo in description
+- Increased mass from 0.4 to 0.8
+- Increased crashTolerance from 15 to 45
+- Added breakingForce/Torque of 200
+- "maxTemp = 2200" is now "maxTemp = 1200" with "skinMaxTemp = 2000"
+- Added vesselType = Probe
+- Added CrewCapacity = 0
+- Added explosionPotential = 0
+- Added tags
+- Added hibernation
+- Reduced ElectricCharge rate of Reaction Wheel from 0.175 to 0.04
+- Light now corresponds to Light action group
+- Added Data Transmitter
+- Added Kerbnet access (size2 RGU level)
+- Added Probe Control Point (no multihop, no crew requirement)
+- Converted ModuleRCS to ModuleRCSFX
+- Added RCS soundsFX (same as stock, they are very quiet)
+
+Grappler Jr.
+- Renamed to "Orbital Tug Grappler Jr."
+- Added decouple sound
+- Tweaked drag slightly
+- Added vesselType = Ship
+- Changed fuelCrossFeed to False, to be consistent with ModuleToggleCrossfeed
+- Added explosionPotential = 0
+- Added tags
+- Reduced ElectricCharge rate of Reaction Wheel from 0.175 to 0.04
+- Light now corresponds to Light action group
+- Converted ModuleRCS to ModuleRCSFX
+- Added RCS soundsFX (same as stock, they are very quiet)
+
+//----------------------------Cores----------------------------//
+Space Tug Grappler
+- Renamed to "Orbital Tug Grappler"
+- Category changed to Coupling
+- Tweaked drag slightly
+- Removed double crashTolerance entries (it's now 50, not 500 or 15)
+- Added vesselType = Ship
+- Added CrewCapacity = 0
+- Fixed bulkheadProfiles
+- Added tags
+- Added "torqueResponseSpeed = 20" to Reaction Wheel
+- Increased ElectricCharge rate from 0.3 to 0.4
+- Converted ModuleRCS to ModuleRCSFX
+- Added RCS soundsFX (same as stock, they are very quiet)
+
+Push Adapter (adaptorCarrier)
+- Renamed to "Orbital Tug Carrier Module"
+- Category changed to Coupling
+- Mass increased from 0.25 to 0.5
+- Tweaked drag slightly
+- Increased crashTolerance from 15 to 50
+- Added vesselType = Ship
+- Added CrewCapacity = 0
+- Added explosionPotential = 0
+- Added tags
+- Added 150 units of ElectricCharge
+- Reduced MonoPropellant resource from 160 units to 150 units
+- Converted ModuleRCS to ModuleRCSFX
+- Added RCS soundsFX (same as stock, they are very quiet)
+
+Push Adapter (fwdAdaptor)
+- Renamed to "Orbital Tug Push Adapter"
+- Category changed to Coupling
+- Tweaked drag slightly
+- Increased crashTolerance from 15 to 50
+- Added vesselType = Ship
+- Added CrewCapacity = 0
+- Added explosionPotential = 0
+- Added tags
+- Enforced stagingIcon
+- Added 125 units of ElectricCharge
+- Converted ModuleRCS to ModuleRCSFX
+- Added RCS soundsFX (same as stock, they are very quiet)
+
+//----------------------------Engine----------------------------//
+Extendable Nuclear Engine
+- entryCost increased from 4200 to 42000 (stock Nerv is 45000)
+- cost increased from 2200 to 8500 (stock Nerv is 10000)
+- Category changed from Propulsion to Engine (has no in game effect)
+- Mass increased from 1.5 to 2.0 (stock Nerv is 3.0)
+- Tweaked drag slightly
+- Reduced crashTolerance from 20 to 12
+- Reduced maxTemp from 3400 to 2500
+- Increased thermalMassModifier from 0.5 to 1.0
+- Added skinInternalConductionMult = 4.0 (same as stock)
+- Added radiatorMax = 0.35 (same as stock)
+- Added bulkheadProfiles
+- Added tags
+- LF Mode now does exhaust damage (MonoProp mode still does not)
+- Thrust for LF & MonoProp modes switched (previously MonoProp output more thrust than LF) to 50 & 40 respectively
+- Increased LF heatProduction from 150 to 250 (same as stock Nerv)
+- Decreased MonoProp heatProduction from 170 to 100
+- Added EngineType's to respective modes (Nuclear & MonoProp)
+- Reduced LiquidFuel propellant ratio from 1.0 to 0.9 (same as stock Nerv)
+- Replaced Generator module with an Alternator (at same ElectricCharge rate)
