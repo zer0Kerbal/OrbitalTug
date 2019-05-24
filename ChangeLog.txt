@@ -2,3 +2,7 @@ Merged patches by @Deimos Rast and @LeLeon
 Merged patch by @Starwaster
 
 Added B9PartSwitcher code, will be primary if it's there
+
+Added jenkins.txt
+Added .version file
+
