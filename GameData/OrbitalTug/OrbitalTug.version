@@ -1,0 +1,20 @@
+{
+  "NAME": "OrbitalTug",
+  "URL": "http://ksp.spacetux.net/avc/OrbitalTug",
+  "DOWNLOAD": "https://forum.kerbalspaceprogram.com/index.php?/topic/133162-112-orbital-utility-vehicle-v124/&page=12&tab=comments#comment-3603647",
+  "GITHUB": {
+    "USERNAME": "linuxgurugamer",
+    "REPOSITORY": "OrbitalTug"
+  },
+  "VERSION": {
+    "MAJOR": 1,
+    "MINOR": 3,
+    "PATCH": 0,
+    "BUILD": 0
+  },
+  "KSP_VERSION_MIN": {
+    "MAJOR": 1,
+    "MINOR": 6,
+    "PATCH": 1
+  }
+}
