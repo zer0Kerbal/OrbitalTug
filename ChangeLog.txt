@@ -1,4 +1,15 @@
-Merged patches by @Deimos Rast and @LeLeon
-Merged patch by @Starwaster
+1.3.0.1
+	Merged patches by @Deimos Rast and @LeLeon
+	Merged patch by @Starwaster
 
-Added B9PartSwitcher code, will be primary if it's there
+	Added B9PartSwitcher code, will be primary if it's there
+
+	Added jenkins.txt
+	Added .version file
+
+
+1.3.0.2
+	Merged PR from zer0kerbal
+	Added AYA_ModuleAnimateGeneric patch for engines
+	Adjusted engine strength down a bit
+
