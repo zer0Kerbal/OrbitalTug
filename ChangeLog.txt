@@ -13,3 +13,5 @@
 	Added AYA_ModuleAnimateGeneric patch for engines
 	Adjusted engine strength down a bit
 
+1.3.0.3
+	Merge pull request #11 from zer0Kerbal/0.16
