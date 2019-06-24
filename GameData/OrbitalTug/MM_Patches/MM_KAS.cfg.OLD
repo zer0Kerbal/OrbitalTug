@@ -1,0 +1,83 @@
+
+@PART[OrbitalGrapplerJR]:NEEDS[KAS]
+ {
+
+    node_stack_tether = 0.0, 0.9650192, 0.01, 0.0, 0, 1.0, 0
+    
+    MODULE
+    {
+        name = KASModuleWinch
+        maxLenght = 20
+        cableSpring = 200
+        cableDamper = 200
+        cableWidth = 0.02
+        motorMaxSpeed = 1
+        motorAcceleration = 0.05
+        powerDrain = 0.01
+        headTransformName = head
+        headPortNodeName = portNode
+        connectedPortNodeName = tether
+        anchorNodeName = umbilical
+        evaGrabHeadPos = (0.05, 0.01, -0.11)
+        evaGrabHeadDir = (0,0,1)
+        evaDropHeadPos = (0.05, 0.01, -0.16)
+        evaDropHeadRot = (180.0, 0.0, 0.0)
+        ejectEnabled = false
+        lockMinDist = 0.12
+        lockMinFwdDot = 0.5
+    }
+}
+	
+
+@PART[OrbitalTugPod]:NEEDS[KAS]
+{
+	MODEL
+	{
+		model = OrbitalTug/pod/widgets/OUVWinch
+		texture = fwdAdaptor, OrbitalTug/adaptor/fwdAdaptor
+		scale = 0.9,0.9,0.9
+		position = 0,0.85,0.18
+		rotation = -90,0,0
+	}
+	
+	node_stack_top = 0.0, 1.11, 0.2258241, 0.0, 1.0, 0.0, 0
+	
+	MODULE
+	{
+		name = KASModuleWinch
+		maxLenght = 30
+		cableSpring = 1000
+		cableDamper = 1000
+		cableWidth = 0.04
+		motorMaxSpeed = 2
+		motorAcceleration = 0.05
+		powerDrain = 0.5
+		headTransformName = head
+		headPortNodeName = portNode
+		connectedPortNodeName = top
+		anchorNodeName = anchorNode
+		evaGrabHeadPos = (0.05, 0.01, -0.11)
+		evaGrabHeadDir = (0,0,1)
+		evaDropHeadPos = (0.05, 0.01, -0.16)
+		evaDropHeadRot = (180.0, 0.0, 0.0)
+		ejectEnabled = true
+		ejectForce = 60
+		lockMinDist = 0.12
+		lockMinFwdDot = 0.90
+	}
+	MODULE
+	{
+		name = ModuleKISPartMount
+		mountedPartNode = portNode
+		sndStorePath = KIS/Sounds/containerMount
+		allowRelease = false
+		MOUNT
+		{
+			attachNode = bottom
+			allowedPartName= KAS_Hook_Anchor
+			allowedPartName= KAS_Hook_Magnet
+			allowedPartName= KAS_Hook_Harpoon
+			allowedPartName= KAS_Hook_GrapplingHook
+		}
+	}
+}
