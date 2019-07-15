@@ -1,0 +1,87 @@
+@PART[OrbitalTugCore]:NEEDS[Firespitter&!B9PartSwitch&!ModularFuelTanks]:FOR[OrbitalTug]
+{
+	!RESOURCE[MonoPropellant]{}
+	!RESOURCE[ElectricCharge]{}
+
+	MODULE
+	{
+		name = FSfuelSwitch
+		resourceNames = MonoPropellant,ElectricCharge;LiquidFuel,ElectricCharge
+		resourceAmounts = 400,400;400,400
+		basePartMass = 1
+		tankMass = 0.075;0.075
+		tankCost = 0;0
+	}
+}
+@PART[OrbitalTugCore]:NEEDS[Firespitter&!B9PartSwitch]:FOR[OrbitalTug]
+{	
+	MODULE
+	{
+		name = FStextureSwitch2
+		objectNames = corePattern
+		textureRootFolder = OrbitalTug/colors/
+		textureNames = stripes_blk;stripes_blue;stripes_teal;stripes_green;stripes_orange;stripes_purple;stripes_red;stripes_white;
+		textureDisplayNames = Black;Blue;Teal;Green;Orange;Purple;Red;White
+		nextButtonText = Switch Color
+		prevButtonText = Previous
+		switchableInFlight = false
+		repaintableEVA = true
+		showPreviousButton = false
+		showInfo = false
+	}
+}
+
+@PART[OrbitalGrapplerJR]:NEEDS[Firespitter&!B9PartSwitch]:FOR[OrbitalTug]
+{    
+    MODULE
+    {
+        name = FStextureSwitch2
+        objectNames = stripes
+        textureRootFolder = OrbitalTug/colors/
+        textureNames = stripes_blk;stripes_blue;stripes_teal;stripes_green;stripes_orange;stripes_purple;stripes_red;stripes_white;
+        textureDisplayNames = Black;Blue;Teal;Green;Orange;Purple;Red;White
+        nextButtonText = Switch Color
+        prevButtonText = Previous
+        switchableInFlight = false
+        repaintableEVA = true
+        showPreviousButton = false
+        showInfo = false
+    }
+}
+    
+@PART[DronePod]:NEEDS[Firespitter&!B9PartSwitch]:FOR[OrbitalTug]
+{
+	MODULE
+	{
+		name = FStextureSwitch2
+		objectNames = droneStripes;topStripes;bottomStripes
+		textureRootFolder = OrbitalTug/colors/
+		textureNames = stripes_blk;stripes_blue;stripes_teal;stripes_green;stripes_orange;stripes_purple;stripes_red;stripes_white;
+		textureDisplayNames = Black;Blue;Teal;Green;Orange;Purple;Red;White
+		nextButtonText = Switch Color
+		prevButtonText = Previous
+		switchableInFlight = false
+		repaintableEVA = true
+		showPreviousButton = false
+		showInfo = false
+	}
+}
+
+@PART[OrbitalTugPod]:NEEDS[Firespitter&!B9PartSwitch]:FOR[OrbitalTug]
+{
+	
+	MODULE
+	{
+		name = FStextureSwitch2
+		objectNames = pinStripes
+		textureRootFolder = OrbitalTug/colors/
+		textureNames = stripes_blk;stripes_blue;stripes_teal;stripes_green;stripes_orange;stripes_purple;stripes_red;stripes_white;
+		textureDisplayNames = Black;Blue;Teal;Green;Orange;Purple;Red;White
+		nextButtonText = Switch Color
+		prevButtonText = Previous
+		switchableInFlight = false
+		repaintableEVA = true
+		showPreviousButton = false
+		showInfo = false
+	}
+}

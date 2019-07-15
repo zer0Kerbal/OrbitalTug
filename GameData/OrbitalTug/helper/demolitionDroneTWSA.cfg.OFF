@@ -1,10 +1,10 @@
 // OrbitalTug
-// helperDrone demolitionDroneTAC v 0.23
+// helperDrone demolitionDroneTWSA v 0.23
 // 26 Jun 19
 
-+PART[helperDrone]:NEEDS[OrbitalTug,TacSelfDestruct]:FOR[OrbitalTug]
-{
-	@name = demolitionDroneTAC
++PART[helperDrone]:NEEDS[OrbitalTug,TacSelfDestruct]:FOR[OrbitalTug] {
+	@name = demolitionDroneTWSA
+
 	MODEL {
 		model = TacSelfDestruct/Parts/twsa_bomb/model
 		position = -0.17,-0.017,0.17
@@ -12,29 +12,28 @@
 		scale = 0.75,1.75,0.75
 	}
 	MODEL {
-		model = TacSelfDestruct/Parts/X-1100/TacSelfDestruct
-		position = -0.17,-0.022,-0.17
-		rotation = 90, -45, 0
-		scale = 0.17,0.17,0.17
+		model = TacSelfDestruct/Parts/twsa_bomb/model
+		position = -0.17,-0.017,-0.17
+		rotation = 180, -45, 90
+		scale = 0.75,1.75,0.75
 	}
 	MODEL {
-		model = TacSelfDestruct/Parts/X-1100/TacSelfDestruct
-		position = 0.17,-0.022,0.17
-		rotation = 90, -45, 0
-		scale = 0.17,0.17,0.17
+		model = TacSelfDestruct/Parts/twsa_bomb/model
+		position = 0.17,-0.017,0.17
+		rotation = 180, 135, 90
+		scale = 0.75,1.75,0.75
 	}
 	MODEL {
-		model = TacSelfDestruct/Parts/X-1100/TacSelfDestruct
+		model = TacSelfDestruct/Parts/twsa_bomb/model
 		position = 0.17,-0.022,-0.17
-		rotation = 90, 45, 0
-		scale = 0.17,0.17,0.17
+		rotation = 180, -135, 90
+		scale = 0.75,1.75,0.75
 	}
-	
+
 	@cost += 500
-	@mass += .1
-	@title = Orbital Tug Demolition Drone
+	@mass += .05
+	@title = demolitionDroneTWSA
 	@description = with a innocent package strapped into its innards, this little helper likes to make things go away. <color=orange>Jeb style.</color>. Triple layer, noise canceling, ear protection most certainly not included.
-	
 	@explosionPotential = 1.0
 
 	@tags ^= :^: KIS EVA portable tool )demo destruction bomb cck-tug
