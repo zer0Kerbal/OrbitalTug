@@ -8,7 +8,16 @@ See ChangeLog.txt for details of mod changes
 
 Extract to your KSP folder.
 
-Requires 
+''Requires:
+ * ![ModuleManager](http://forum.kerbalspaceprogram.com/index.php?/topic/50533-105-module-manager-2618-january-17th-with-even-more-sha-and-less-bug/) 
+ * ![B9 Part Switch]("http://forum.kerbalspaceprogram.com/index.php?showtopic=140541")
+
+''Recommends:
+ * ![AllYAll](http://forum.kerbalspaceprogram.com/index.php?/topic/155858-ksp-122-all)
+ * ![KURS style docking camera ](https://github.com/linuxgurugamer/DockingCam)
+ * ![BurstMode]()
+ * ![Tac Self Destruct Continued](http://forum.kerbalspaceprogram.com/index.php?/topic/154232-122-tac-self-destruct-continued/) 
+
 ModuleManager @ http://forum.kerbalspaceprogram.com/index.php?/topic/50533-105-module-manager-2618-january-17th-with-even-more-sha-and-less-bug/
 
 License
