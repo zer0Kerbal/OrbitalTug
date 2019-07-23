@@ -2,6 +2,8 @@
 Continuation of Orbital Utility Vehicle by (first by nli2work), now continued by
 LinuxGuruGamer with community support.
 
+![Orbital Tug](https://raw.githubusercontent.com/zer0Kerbal/OrbitalTug/master/marketingimages/OrbitalTugVanityPlate.jpg "Orbital Tug")
+
 See ChangeLog.txt for details of mod changes
 
 Extract to your KSP folder.
