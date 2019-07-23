@@ -49,9 +49,9 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 **Helper Drone**, Remote controlled RCS block with integrated Light and RTG. Max RCS Power 8, default set to 10%. Use grabber for docking after initial separation (decoupler). 3km Omni antenna when used with Remote Tech.
 
-**TAC Self Destruct Helper Drone**
+**TAC Self Destruct Helper Drone** (requires TAC Self Destruct)
 
-**KIS Bomb Helper Drone**
+**KIS Bomb Helper Drone** (requires KIS)
 
 **Grappler Jr.** Service Bay w/ Grappler Arm w/ External Command seat.
 
