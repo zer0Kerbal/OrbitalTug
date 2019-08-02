@@ -34,6 +34,7 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 
 **Command Pod**, roughly same size as Mk1; Looking for an IVA
+
 		* Has data transmitter built-in. Two 
 		* Variants depending on other active mods.
 
@@ -43,6 +44,7 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/
        * B9textureSwitch for some visual customization options
 
 **Advanced Drone Unit**, derived from the Command Pod. 
+
 		* Crew space converted to service bay. 
 		* More EC and Mono capacity. 
 		* Integrated RCS thrusters. 
@@ -53,6 +55,7 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/
        * B9textureSwitch for some visual customization options
 
 **Grappler unit**, very handy for moving things around when you don't have a docking port. 
+
 		* Moderate EC capacity
 		* LF/OX or Mono fuel options.
 
@@ -61,6 +64,7 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/
        * B9textureSwitch for some visual customization options
        
 **Radial LFO engine** 
+
 		* Burns LFO or Mono. 
 		* Reversible thrust. 
 		* Full extension to around 2m, a tad shorter than the FT400 fuel tank. can give you that extra clearance you need when hauling large objects. 
@@ -68,6 +72,7 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/
 		* Available reverse thrust and thrust Gimbal.
 
 **Radial NV engine**
+
 		* Burns LF or Mono. 
 		* Reversible thrust. 
 		* Full extension to around 2m, a tad shorter than the FT400 fuel tank. can give you that extra clearance you need when hauling large objects. 
@@ -76,25 +81,31 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/
 		* KSPI-E Config included
 
 **Carrier Adaptor**
+
 		* Grabber Unit with carrying capacity for up to 4 Helper Drones.
 
 **Push Adaptor**
+
 		* Retained for the time being. 
 		* Service bay instead of docking bays for for Helper Drones.
 
 **Helper Drone**
+
 		* Remote controlled RCS block with integrated Light and RTG. 
 		* Max RCS Power of 8, default set to 10%. 
 		* Use grabber for docking after initial separation (decoupler). 
 		* 3km Omni antenna when used with Remote Tech.
 
 **TAC Self Destruct Helper Drone** 
+
 		* (requires TAC Self Destruct)
 
 **KIS Bomb Helper Drone** 
+
 		* (requires KIS)
 
 **Grappler Jr.** 
+
 		* Service Bay w/ Grappler Arm and w/ External Command seat.
 
 **Orbital Tug Drone Antenna**
