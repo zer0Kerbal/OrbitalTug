@@ -8,15 +8,20 @@ See ChangeLog.txt for details of mod changes
 
 Extract to your KSP folder.
 
-''Requires:
+### Requires: 
  * ![ModuleManager](http://forum.kerbalspaceprogram.com/index.php?/topic/50533-105-module-manager-2618-january-17th-with-even-more-sha-and-less-bug/) 
- * ![B9 Part Switch]("http://forum.kerbalspaceprogram.com/index.php?showtopic=140541")
-
-''Recommends:
+ * ![B9 Part Switch]("http://forum.kerbalspaceprogram.com/index.php?showtopic=140541") 
+ 
+### Recommends:
  * ![AllYAll](http://forum.kerbalspaceprogram.com/index.php?/topic/155858-ksp-122-all)
  * ![KURS style docking camera ](https://github.com/linuxgurugamer/DockingCam)
  * ![BurstMode]()
  * ![Tac Self Destruct Continued](http://forum.kerbalspaceprogram.com/index.php?/topic/154232-122-tac-self-destruct-continued/) 
+ * ![Kerbal Attachment System (KAS)]() 
+ * ![Kerbal Inventory System (KIS)]() 
+ * ![InfernalRobotics-Next]() 
+ * ![Kerbal Joint Reinforcement-Next (KJR)]() 
+ * ![Kerbal Change Log]() 
 
 ModuleManager @ http://forum.kerbalspaceprogram.com/index.php?/topic/50533-105-module-manager-2618-january-17th-with-even-more-sha-and-less-bug/
 
@@ -53,23 +58,35 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/
        
 **Radial LFO engine**, burns LFO or Mono. Reversible thrust. Full extension to around 2m, a tad shorter than the FT400 fuel tank. can give you that extra clearance you need when hauling large objects. Keep Kerbals away from moving parts. Available reverse thrust and thrust Gimbal.
 
+       * Modular Fuel Tank configs via MM 
+       * B9nodeSwitch adds additional attachment node choices
+
 **Radial NV engine**, burns LF or Mono. Reversible thrust. Full extension to around 2m, a tad shorter than the FT400 fuel tank. can give you that extra clearance you need when hauling large objects. Keep Kerbals away from moving parts. Fixed reverse thrust. added thrust Gimbal. KSPI-E Config included
+
+       * Modular Fuel Tank configs via MM 
+       * B9nodeSwitch adds additional attachment node choices
 
 **Carrier Adaptor**, Grabber Unit with carrying capacity for up to 4 Helper Drones.
 
+       * B9nodeSwitch adds additional attachment node choices
+
 **Push Adaptor**, retained for the time being. Service bay instead of docking bays for for Helper Drones.
+
+       * B9nodeSwitch adds additional attachment node choices
 
 **Helper Drone**, Remote controlled RCS block with integrated Light and RTG. Max RCS Power 8, default set to 10%. Use grabber for docking after initial separation (decoupler). 3km Omni antenna when used with Remote Tech.
 
-**TAC Self Destruct Helper Drone** (requires TAC Self Destruct)
+       * B9nodeSwitch adds additional attachment node choices
 
-**KIS Bomb Helper Drone** (requires KIS)
+ + ***TAC Self Destruct Helper Drone** (requires TAC Self Destruct)
+ + ***KIS Bomb Helper Drone** (requires KIS)
 
 **Grappler Jr.** Service Bay w/ Grappler Arm w/ External Command seat.
 
-**Orbital Tug Drone Antenna**
+       * B9nodeSwitch adds additional attachment node choices
 
-**Orbital Tug Winch** (available pre-1.2 KAS)
-
-**Orbital Tug SCANsat** (requires SCANsat)
+**Widgets
+ + ***Orbital Tug Drone Antenna***
+ + ***Orbital Tug Winch*** (available pre-1.2 KAS)
+ + ***Orbital Tug SCANsat*** (requires SCANsat)
 
