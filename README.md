@@ -23,9 +23,7 @@ Extract to your KSP folder.
  * ![Kerbal Joint Reinforcement-Next (KJR)]() 
  * ![Kerbal Change Log]() 
 
-ModuleManager @ http://forum.kerbalspaceprogram.com/index.php?/topic/50533-105-module-manager-2618-january-17th-with-even-more-sha-and-less-bug/
-
-License
+## License
 
 ![[CC 4.0 BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png "CC 4.0 BY-NC-SA")
 
@@ -36,7 +34,7 @@ You may modify for personal use. You may redistribute content with attribution t
 https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 
-
+## Included Parts: 
 **Command Pod**, roughly same size as Mk1; Looking for an IVA Has data transmitter built-in. Two variants depending on other active mods.
 
        * KAS (pre 1.2): adds front mounted winch unit w 30 meter cable.
@@ -46,7 +44,7 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 **Advanced Drone Unit**, derived from the Command Pod. Crew space converted to service bay. More EC and Mono capacity. Integrated RCS thrusters. One variant available
 
-       * RemoteTech: Service bay removed. Adds 500km passive Omni antenna and 9Mm directional antenna, should allow comfortable operation within Kerbin SOI. Increased EC and Mono capacity. Integral RTG will prevent complete loss of control from lack of EC; but will require periodic recharge with additional power sources.
+       * RemoteTech: *Service bay removed.* Adds 500km passive Omni antenna and 9Mm directional antenna, should allow comfortable operation within Kerbin SOI. Increased EC and Mono capacity. Integral RTG will prevent complete loss of control from lack of EC; but will require periodic recharge with additional power sources.
        * B9nodeSwitch adds additional attachment node choices
        * B9textureSwitch for some visual customization options
 
@@ -56,37 +54,53 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/
        * B9nodeSwitch adds additional attachment node choices
        * B9textureSwitch for some visual customization options
        
-**Radial LFO engine**, burns LFO or Mono. Reversible thrust. Full extension to around 2m, a tad shorter than the FT400 fuel tank. can give you that extra clearance you need when hauling large objects. Keep Kerbals away from moving parts. Available reverse thrust and thrust Gimbal.
+**Radial LFO engine**, burns Liquid Fuel/Oxidizer or Mono. Reversible thrust. Full extension to around 2m, a tad shorter than the FT400 fuel tank. can give you that extra clearance you need when hauling large objects. Keep Kerbals away from moving parts. Available reverse thrust and thrust Gimbal.
 
        * Modular Fuel Tank configs via MM 
        * B9nodeSwitch adds additional attachment node choices
+       * Multimode (multi-fuel)
+       * Extendable
+       * Reversible
+       * Gimbling
 
-**Radial NV engine**, burns LF or Mono. Reversible thrust. Full extension to around 2m, a tad shorter than the FT400 fuel tank. can give you that extra clearance you need when hauling large objects. Keep Kerbals away from moving parts. Fixed reverse thrust. added thrust Gimbal. KSPI-E Config included
+**Radial NV engine**, burns Liquid Fuel or Monopropellent. Reversible thrust. Full extension to around 2m, a tad shorter than the FT400 fuel tank. can give you that extra clearance you need when hauling large objects. Keep Kerbals away from moving parts. Fixed reverse thrust. added thrust Gimbal. KSPI-E Config included
 
        * Modular Fuel Tank configs via MM 
        * B9nodeSwitch adds additional attachment node choices
+       * Multimode (multi-fuel)
+       * Extendable
+       * Reversible
+       * Gimbling
 
 **Carrier Adaptor**, Grabber Unit with carrying capacity for up to 4 Helper Drones.
 
        * B9nodeSwitch adds additional attachment node choices
+       * Grappler on end
+       * 100 Monopropellent 
+       * 150 Electric Charge
 
-**Push Adaptor**, retained for the time being. Service bay instead of docking bays for for Helper Drones.
+**Push Adaptor**, Has multi-sized Docking Port. Service bay instead of docking bays for for Helper Drones.
+
+       * B9nodeSwitch adds additional attachment node choices
+       * Docking node sizes: size1, size2, size3
+       * Grappler on end
+       * retained for the time being
+       * 125 Monopropellent 
+       * 125 Electric Charge
+
+**Helper Drone**, Remote controlled RCS block with integrated Light and RTG. Max RCS Power 8, default set to 10%. Use grabber for docking after initial separation (integrated decoupler). 3km Omni antenna (when used with Remote ****Tech****).
 
        * B9nodeSwitch adds additional attachment node choices
 
-**Helper Drone**, Remote controlled RCS block with integrated Light and RTG. Max RCS Power 8, default set to 10%. Use grabber for docking after initial separation (decoupler). 3km Omni antenna when used with Remote Tech.
-
-       * B9nodeSwitch adds additional attachment node choices
-
- + ***TAC Self Destruct Helper Drone** (requires TAC Self Destruct)
- + ***KIS Bomb Helper Drone** (requires KIS)
+ + ***TAC Self Destruct Demolition Helper Drone*** *(requires TAC Self Destruct)*
+ + ***KIS Bomb Helper  Demolition Drone*** *(requires KIS)*
 
 **Grappler Jr.** Service Bay w/ Grappler Arm w/ External Command seat.
 
        * B9nodeSwitch adds additional attachment node choices
 
-**Widgets
- + ***Orbital Tug Drone Antenna***
- + ***Orbital Tug Winch*** (available pre-1.2 KAS)
- + ***Orbital Tug SCANsat*** (requires SCANsat)
+**Widgets**
+ + ***Orbital Tug Drone Antenna*** *only available in flat black*
+ + ***Orbital Tug Winch*** (available pre-1.2 KAS) *only available in tug black and yellow*
+ + ***Orbital Tug SCANsat*** (requires SCANsat)*only available in tug black and yellow*
 
