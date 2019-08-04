@@ -1,6 +1,9 @@
 # OrbitalTug
+![OrbitalTug](https://img.shields.io/badge/KSP%20version-1.7.x-66ccff.svg?style=flat-square) 
+![OrbitalTug](https://img.shields.io/badge/MOD%20version-1.3.0.5-orange.svg?style=flat-square) 
+
 Continuation of Orbital Utility Vehicle by (first by nli2work), now continued by
-LinuxGuruGamer with community support.
+*LinuxGuruGamer* and *zer0Kerbal* with community support.
 
 ![Orbital Tug](https://raw.githubusercontent.com/zer0Kerbal/OrbitalTug/master/marketingimages/OrbitalTugVanityPlate.jpg "Orbital Tug")
 
@@ -12,19 +15,21 @@ Extract to your KSP folder.
  * ![ModuleManager](http://forum.kerbalspaceprogram.com/index.php?/topic/50533-105-module-manager-2618-january-17th-with-even-more-sha-and-less-bug/) 
  * ![B9 Part Switch]("http://forum.kerbalspaceprogram.com/index.php?showtopic=140541") 
  
-### Recommends:
+### Recommends: 
+#### *Orbital Tug experience benefits from having these installed* 
  * ![AllYAll](http://forum.kerbalspaceprogram.com/index.php?/topic/155858-ksp-122-all)
  * ![KURS style docking camera ](https://github.com/linuxgurugamer/DockingCam)
  * ![BurstMode]()
  * ![Tac Self Destruct Continued](http://forum.kerbalspaceprogram.com/index.php?/topic/154232-122-tac-self-destruct-continued/) 
  * ![Kerbal Attachment System (KAS)]() 
  * ![Kerbal Inventory System (KIS)]() 
+
+### Suggests: 
  * ![InfernalRobotics-Next]() 
  * ![Kerbal Joint Reinforcement-Next (KJR)]() 
  * ![Kerbal Change Log]() 
 
 ## License
-
 ![[CC 4.0 BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png "CC 4.0 BY-NC-SA")
 
 content licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
