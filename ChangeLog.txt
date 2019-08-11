@@ -27,3 +27,7 @@
 	fix/adjust B9tanktypes to use B9 default tanktypes
 	Add LFO+Mono tanktype and add to Core (to support LFO engine)
 	delete redundant .mu
+
+1.3.0.7
+	Thanks to forum user @FreeThinker for this
+		Fixed compatibility with KSPIE
