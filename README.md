@@ -1,7 +1,8 @@
 # Orbital Tug
 #####  *formerly known as Orbital Utility Vehicle (OUV)* 
 ![OrbitalTug](https://img.shields.io/badge/KSP%20version-1.7.x-66ccff.svg?style=flat-square) 
-![OrbitalTug](https://img.shields.io/badge/MOD%20version-1.3.0.5-orange.svg?style=flat-square) 
+![OrbitalTug](https://img.shields.io/badge/MOD%20version-1.3.0.5-orange.svg?style=flat-square)
+![OrbitalTug](https://img.shields.io/badge/CKAN-Indexed-brightgreen.svg)
 
 Continuation of Orbital Utility Vehicle by (first by nli2work), now continued by *LinuxGuruGamer* and *zer0Kerbal* with community support.
 
