@@ -35,8 +35,6 @@
 3:License.md,GameData/OrbitalTug
 3:README.md,GameData/OrbitalTug
 
-# 4:SOURCDIR, DESTDIR
-#4:Textures,GameData/ManeuverQueue/Textures
 
 NOT:1.4.5
 NOT:1.5.1
